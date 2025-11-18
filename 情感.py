@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 解决Matplotlib中文显示问题
-plt.rcParams["font.family"] = ["SimHei", "WenQuanYi Micro Hei", "Heiti TC", "Arial Unicode MS,"Microsoft YaHei", "DengXian", "KaiTi", "FangSong"]
+plt.rcParams["font.family"] = ["SimHei", "WenQuanYi Micro Hei", "Heiti TC", "Arial Unicode MS", "Microsoft YaHei", "DengXian", "KaiTi", "FangSong"]
 plt.rcParams["axes.unicode_minus"] = False  # 解决负号显示问题
 
 # --- 页面配置 ---
@@ -601,3 +601,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
